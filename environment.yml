@@ -1,0 +1,11 @@
+name: polyglot-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - dotnet-sdk=7.0 # or latest LTS
+  - ipykernel
+  - pip
+post_build:
+  - dotnet tool install --global dotnet-interactive
+  - dotnet interactive jupyter install`
+  
