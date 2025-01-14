@@ -2,7 +2,7 @@ name: polyglot-notebooks
 channels:
   - conda-forge
 dependencies:
-  - dotnet-sdk=7.0 # or latest LTS
+  - dotnet-sdk=8.0 # or latest LTS
   - ipykernel
   - pip
 post_build:
